@@ -26,21 +26,29 @@
       padding: 0;
     }
     ul.product-list li {
+      display: flex;
+      align-items: center;
       margin: 1em 0;
       padding-bottom: 0.5em;
       border-bottom: 1px solid #eee;
+    }
+    ul.product-list img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      margin-right: 12px;
+      border-radius: 4px;
     }
     ul.product-list a {
       color: #0066c0;
       text-decoration: none;
       font-weight: bold;
+      margin-right: 8px;
     }
     ul.product-list a:hover {
       text-decoration: underline;
     }
     span.tagline {
-      display: block;
-      margin-top: 0.3em;
       color: #555;
       font-size: 0.95em;
     }
@@ -53,40 +61,67 @@
   </p>
   <ul class="product-list">
     <li>
-      <a href="https://amzn.to/45258dl" target="_blank">Xbox Wireless Controller Review</a>
-      <span class="tagline">— Ergonomic design for marathon gaming sessions</span>
+      <img src="https://m.media-amazon.com/images/I/615KnbjRmTL._SX522_.jpg" alt="Xbox Wireless Controller">
+      <div>
+        <a href="https://amzn.to/3TSeL9D" target="_blank">Xbox Wireless Controller Review</a>
+        <span class="tagline">— Ergonomic design for marathon gaming sessions</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/4mc9aHk" target="_blank">Apple MacBook Air 13 (M3, 2025)</a>
-      <span class="tagline">— Ultra‑thin, 18‑hour battery life for students and creatives</span>
+      <img src="https://m.media-amazon.com/images/I/71x9JI-Il0L._AC_SX679_.jpg" alt="MacBook Air 13">
+      <div>
+        <a href="https://amzn.to/4mc9aHk" target="_blank">Apple MacBook Air 13 (M3, 2025)</a>
+        <span class="tagline">— Ultra‑thin, 18‑hour battery life for students and creatives</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/4falQfs" target="_blank">Apple AirPods Pro 2</a>
-      <span class="tagline">— Top‑of‑the‑line noise cancellation & wireless charging</span>
+      <img src="https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SX679_.jpg" alt="AirPods Pro 2">
+      <div>
+        <a href="https://amzn.to/4falQfs" target="_blank">Apple AirPods Pro 2</a>
+        <span class="tagline">— Top‑of‑the‑line noise cancellation & wireless charging</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/414Yv94" target="_blank">Smeg 50's Retro Style Drip Coffee Machine</a>
-      <span class="tagline">— Stylish retro look with perfect brew every time</span>
+      <img src="https://m.media-amazon.com/images/I/61xvSB5+FdL._AC_SX679_.jpg" alt="Smeg Coffee Machine">
+      <div>
+        <a href="https://amzn.to/414Yv94" target="_blank">Smeg 50's Retro Style Drip Coffee Machine</a>
+        <span class="tagline">— Stylish retro look with perfect brew every time</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/4lJgyKe" target="_blank">Crocs Unisex Classic Clog</a>
-      <span class="tagline">— Lightweight, water‑friendly comfort for everyday wear</span>
+      <img src="https://m.media-amazon.com/images/I/61SuPkDGYfL._AC_SY695_.jpg" alt="Crocs Classic Clog">
+      <div>
+        <a href="https://amzn.to/4lJgyKe" target="_blank">Crocs Unisex Classic Clog</a>
+        <span class="tagline">— Lightweight, water‑friendly comfort for everyday wear</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/4o4tAUj" target="_blank">Le Creuset Signature Cast Iron Dutch Oven</a>
-      <span class="tagline">— Durable, even‑heat for braising, baking, and roasting</span>
+      <img src="https://m.media-amazon.com/images/I/61wvp4TucNL._AC_SX679_.jpg" alt="Le Creuset Dutch Oven">
+      <div>
+        <a href="https://amzn.to/4o4tAUj" target="_blank">Le Creuset Signature Cast Iron Dutch Oven</a>
+        <span class="tagline">— Durable, even‑heat for braising, baking, and roasting</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/3H41RCt" target="_blank">Amazon Fire TV 55" Omni QLED</a>
-      <span class="tagline">— QLED 4K picture & built‑in Alexa for ultimate smart TV</span>
+      <img src="https://m.media-amazon.com/images/I/811cBY+iEdL._AC_SY300_SX300_.jpg" alt="Amazon Fire TV 55&quot; Omni QLED">
+      <div>
+        <a href="https://amzn.to/3H41RCt" target="_blank">Amazon Fire TV 55" Omni QLED</a>
+        <span class="tagline">— QLED 4K picture & built‑in Alexa for ultimate smart TV</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/4o4w84R" target="_blank">BAGSMART Lightweight Puffy Tote Bag</a>
-      <span class="tagline">— Foldable, water‑resistant design for travel & daily use</span>
+      <img src="https://m.media-amazon.com/images/I/61e7U63hQ6L._AC_SX679_.jpg" alt="BAGSMART Tote Bag">
+      <div>
+        <a href="https://amzn.to/4o4w84R" target="_blank">BAGSMART Lightweight Puffy Tote Bag</a>
+        <span class="tagline">— Foldable, water‑resistant design for travel & daily use</span>
+      </div>
     </li>
     <li>
-      <a href="https://amzn.to/4o2VcJq" target="_blank">Wonderskin Lip Stain Peel‑Off Kit</a>
-      <span class="tagline">— 10‑hour long‑wear color that peels off for a flawless finish</span>
+      <img src="https://m.media-amazon.com/images/I/41tGpA+nk0L._SY300_SX300_.jpg" alt="Wonderskin Lip Stain Kit">
+      <div>
+        <a href="https://amzn.to/4o2VcJq" target="_blank">Wonderskin Lip Stain Peel‑Off Kit</a>
+        <span class="tagline">— 10‑hour long‑wear color that peels off for a flawless finish</span>
+      </div>
     </li>
   </ul>
 </body>
